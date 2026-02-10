@@ -6,7 +6,8 @@ phases:
       java: corretto17
   build:
     commands:
-      - mvn clean package -DskipTests
+      - chmod +x mvnw
+      - ./mvnw clean package -DskipTests
 
 artifacts:
   files:

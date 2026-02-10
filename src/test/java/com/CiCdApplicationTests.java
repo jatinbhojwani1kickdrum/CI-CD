@@ -1,4 +1,4 @@
-package com.example.CI_CD;
+package com;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
