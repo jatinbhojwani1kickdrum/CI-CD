@@ -9,11 +9,11 @@ public class Hellocontroller {
 
     @GetMapping("/")
     public String home() {
-        return "Deployed on Elastic Beanstalk ✅";
+        return "Deployed on Elastic Beanstalk";
     }
 
     @GetMapping("/health")
     public String health() {
-        return "OK";
+        return "OK Health api change and we have triggered the pipeline";
     }
 }
